@@ -1,9 +1,11 @@
-import "./styles.css";
+let N: number = Number(prompt("ingrese N"));
+let numeroIngresado: number[] = new Array(N);
+for (let i: number = 0; i < numeroIngresado.length; i++) {
+  numeroIngresado[i] = Number(prompt("ingrese numeros"));
 
-document.getElementById("app").innerHTML = `
-<h1>Hello Vanilla!</h1>
-<div>
-  We use the same configuration as Parcel to bundle this sandbox, you can find more
-  info about Parcel 
-  <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.
-</div>`;
+  console.log(" el numero ingresado es: ";
+}
+for (let i = numeroIngresado.length - 1; i >= 0; i--) {
+  console.log("Array invertido", numeroIngresado[i]);
+}
+//revisar
